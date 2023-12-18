@@ -1,6 +1,6 @@
 # Rice cooker management In Ruby 
 
-## Standard 
+## Style Guides
 Linter : 
 ```
 Rubycop 
