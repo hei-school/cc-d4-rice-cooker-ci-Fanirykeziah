@@ -26,4 +26,5 @@ rspec
 ````
 
 ## Bug 
+* Some tests doesn't pass
 * The CI doesn't work because I couldn't associate my repository with my circleci account. 
