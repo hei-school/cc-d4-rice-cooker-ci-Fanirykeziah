@@ -14,14 +14,14 @@ Installing dependencies
 npm install
 ```
 
-## Running 
-Running application 
+## Usage
+To running application : 
 ```
 tsc main.ts
 node main.js
 ```
 
-Running tests
+Running test : 
 ```
 npm test
 ````
