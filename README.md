@@ -10,7 +10,9 @@ It help to show what can be done with rice cooker, in order to know what is nece
 The rice cooker has the following features:
 * Plugged In
 * Power On/Off: It doesn't work if you haven't Plugged In
-* Cooking mode: Make mode to cooking with a timer , you can't cooking if your rice cooker isn't power on 
+* Cooking mode: Make mode to cooking with a timer , you can't cooking if your rice cooker isn't power on
+* Steam mode : Made rice cooker to steam mode with level and timer.
+* Warm mode : Make Cooker at warm mode with timer 
 * Cancel : exit all operations and make PluggedIn and PowerOn off
 
 ### Requierements 
