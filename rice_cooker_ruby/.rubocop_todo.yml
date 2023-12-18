@@ -1,0 +1,48 @@
+# AllCops
+AllCops:
+  Exclude:
+    - 'vendor/**/*' 
+
+# Style/IndentationWidth
+Style/IndentationWidth:
+  Enabled: true
+  IndentationWidth: 2
+
+# Style/IndentationConsistency
+Style/IndentationConsistency:
+  Enabled: true
+
+# Style/TrailingWhitespace
+Style/TrailingWhitespace:
+  Enabled: true
+
+# Layout/LineLength
+Layout/LineLength:
+  Enabled: true
+  Max: 80
+
+# Naming/VariableName
+Naming/VariableName:
+  Enabled: true
+
+# Naming/MethodName
+Naming/MethodName:
+  Enabled: true
+
+# Style/MethodDefParentheses
+Style/MethodDefParentheses:
+  Enabled: true
+  Exclude:
+    - 'spec/**/*'
+
+# Style/MutableConstant
+Style/MutableConstant:
+  Enabled: true
+
+# Lint/UnusedMethodArgument
+Lint/UnusedMethodArgument:
+  Enabled: true
+
+# Lint/RedundantCopDisableDirective
+Lint/RedundantCopDisableDirective:
+  Enabled: true
