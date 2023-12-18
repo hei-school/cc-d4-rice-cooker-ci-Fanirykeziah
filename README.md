@@ -1,4 +1,5 @@
 # Rice cooker management in Typescript 
+This project in Typescript don't have set warm mode , set steam mode.
 
 ## Standard 
 Linter : 
