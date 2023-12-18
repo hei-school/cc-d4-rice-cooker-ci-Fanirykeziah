@@ -11,9 +11,9 @@ The rice cooker has the following features:
 * Plugged In
 * Power On/Off: It doesn't work if you haven't Plugged In
 * Cooking mode: Make mode to cooking with a timer , you can't cooking if your rice cooker isn't power on 
-* Cancel : exit all operations and make PluggedIn and PowerOn off 
+* Cancel : exit all operations and make PluggedIn and PowerOn off
 
-### Installation
+### Requierements 
 Installing Python : 
 https://www.python.org/downloads/release/python-390/
 
@@ -26,6 +26,18 @@ https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-8.0.100-windows
 Installing Ruby : 
 https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.2.tar.gz
 
+### Installation 
+- Clone the repository : 
+   ```
+   git clone https://github.com/hei-school/cc-d4-  rice-cooker-ci-Fanirykeziah.git
+   ```
+
+- Switch to branch you want to knowing more
+  ```
+  git checkout feature/your_choice_language
+  ```
+- Intsalling dependencies depend on your language 
+  
 ### Usage
 
 #### Programming languages
