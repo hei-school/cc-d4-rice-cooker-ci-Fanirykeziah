@@ -1,0 +1,28 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: mcr.microsoft.com/dotnet/sdk:latest  
+
+    steps:
+      - checkout  
+
+      
+      - run:
+          name: Install StyleCop and run linting
+          command: |
+            dotnet tool install --global StyleCop.Analyzers
+            dotnet build YourSolution.sln --configuration Release /p:RunAnalyzers=true
+
+      
+      - run:
+          name: Run unit tests
+          command: |
+            dotnet test YourProject.Tests/YourProject.Tests.csproj
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build
