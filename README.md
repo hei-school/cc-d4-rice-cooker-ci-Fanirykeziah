@@ -1,3 +1,13 @@
+# Rice cooker management in Typescript 
+
+## Standard 
+Linter : 
+```
+ESLint
+```
+
+For unit test I used **Jest** 
+
 ## Installation
 Installing dependencies 
 ```
